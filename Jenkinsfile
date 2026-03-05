@@ -5,7 +5,7 @@ pipeline {
 
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/Thesaifshaikh24/html-css-cloud-project.git'
+                git branch: 'main', url: 'https://github.com/Thesaifshaikh24/html-css-cloud-project.git'
             }
         }
 
